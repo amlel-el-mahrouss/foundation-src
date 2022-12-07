@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Ar.cpp">
+      <Filter>Foundation Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Quick.cpp">
+      <Filter>Foundation Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation.cpp">
+      <Filter>Foundation Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Patch.cpp">
+      <Filter>Foundation Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Crc32.cpp">
+      <Filter>Foundation Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Http.cpp">
+      <Filter>Foundation Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="StructuredTable.cpp">
+      <Filter>Foundation Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VTable.cpp">
+      <Filter>Foundation Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Cert.cpp">
+      <Filter>Foundation Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ar.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Quick.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Patch.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VTable.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Crc32.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CHud.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Http.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DxErr.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StructuredTable.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CPly.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CTeam.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cert.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Https.h">
+      <Filter>Foundation Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Foundation Headers">
+      <UniqueIdentifier>{8a97cfec-11af-41e4-a34e-264dab8b47f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{2df95fcb-8386-4fcb-9a54-b96fe7e33f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Foundation Sources">
+      <UniqueIdentifier>{d1fb2e63-c50b-41df-a315-286539df5a80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natvis" />
+  </ItemGroup>
+</Project>
